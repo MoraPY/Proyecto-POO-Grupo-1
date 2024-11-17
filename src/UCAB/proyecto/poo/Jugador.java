@@ -7,7 +7,7 @@ public class Jugador {
     private String alias;
     private int scoreTotal = 0;
     private String tiempoJugado = "0";
-    private int[] fichas = new int[7];
+    
 
     public Jugador(){}
 
@@ -35,19 +35,12 @@ public class Jugador {
         this.correoElectronico = correoElectronico;
     }
 
-    public int[] getFichas() {
-        return fichas;
-    }
-
-    public void setFichas(int[] fichas) {
-        this.fichas = fichas;
-    }
-
+    
     public int getScoreTotal() {
         return scoreTotal;
     }
 
-
+    
     public String getTiempoJugado() {
         return tiempoJugado;
     }
